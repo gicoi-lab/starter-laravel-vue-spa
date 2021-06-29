@@ -57,13 +57,9 @@ open `http://127.0.0.1:8000`
 TODO
 
 ---
-Gicoi Labs.
-© 2021 Gicoi Labs., All Rights Reserved.
----
-
 The MIT License (MIT)
 
-2016 Copyright (c) Gicoi Labs. JunYuan Yan <luke@jyyan.info>
+2021 Copyright (c) Gicoi Labs. JunYuan Yan <luke@jyyan.info>, YaLing Peng
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
