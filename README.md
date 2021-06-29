@@ -7,6 +7,22 @@
 3. 專案根目錄 `/` 為標準 laravel project 資料夾結構
 4. 專案目錄 `/webapp-web` 為 nodejs / webpack 專案目錄
 
+## 重要檔案 for laravel
+1. `resources/views/welcome.blade.php`
+2. `route/web.php`
+3. `route/api.php`
+4. `public/js` & `public/css`
+
+## 測試
+1. 預設路由： http://127.0.0.1:8000
+1. 直接訪問： http://127.0.0.1:8000/welcome
+1. act=TEST http://127.0.0.1:8000/welcome/TEST
+1. act=load, guid=c21856a8-101e-4d1a-a0ef-9c67c44b5c5f http://127.0.0.1:8000/welcome/load/c21856a8-101e-4d1a-a0ef-9c67c44b5c5f
+1. API entry point： http://127.0.0.1:8000/api/user?act=loading&guid=c21856a8-101e-4d1a-a0ef-9c67c44b5c5f
+
+## Screenshot 
+![Image](./resources/images/Screenshot.png)
+
 ---
 
 ## Install

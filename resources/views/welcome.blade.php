@@ -14,6 +14,12 @@
     <!--        預設 page title, 可被 google search engine 索引，-->
     <!--        但 SPA 啟動後，page title 將由 SPA 程式接管-->
     <title>Laravel SPA</title>
+    <link href="{{ asset('/css/chunk-vendors.css') }}" rel="preload" as="style">
+    <link href="{{ asset('/css/xptSpaPlugin.css') }}" rel="preload" as="style">
+    <link href="{{ asset('/js/chunk-vendors.js') }}" rel="preload" as="script">
+    <link href="{{ asset('/js/xptSpaPlugin.js') }}" rel="preload" as="script">
+    <link href="{{ asset('/css/chunk-vendors.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/xptSpaPlugin.css') }}" rel="stylesheet">
 </head>
 <body>
 
@@ -33,5 +39,8 @@
 <!-- SPA page plugin -->
 <!-- SPA page plugin -->
 <!-- SPA page plugin -->
+
+<script src="{{ asset('/js/chunk-vendors.js') }}"></script>
+<script src="{{ asset('/js/xptSpaPlugin.js') }}"></script>
 </body>
 </html>
